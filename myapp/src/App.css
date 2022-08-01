@@ -1,0 +1,22 @@
+
+
+
+
+.one{
+  color:green;
+  padding-left: 1px;
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+ 
+}
+.pos{
+  background-color: papayawhip;
+  border-radius: 30%;
+
+}
+.btn{
+  color: pink;
+  background-color:black;
+}
