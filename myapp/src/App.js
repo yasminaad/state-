@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 import "./App.css";
-import image1 from './img.jpg'
+import image from "./img.jpg"
+
 
 
 class App extends React.Component {
+  
   state = {
     fullName: "AD Yachmina",
     profession: "web devolper",
     bio: "Am 26 age, i live in sousse",
     show: true,
-    image:"image1",
+    imgSrc: image ,
 
     count: 0,
   };
@@ -31,7 +33,7 @@ class App extends React.Component {
         {this.state.show && (
           <div className="inf">
             <div className="Img">
-              <img src={this.state.image} alt="" />
+              <img src={this.state.imgSrc} alt="" />
             </div>
             <section className="pos">
               <h1>{this.state.fullName}</h1>
